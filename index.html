@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <input type="text" id="neww">
+    <button class="sadsa">vinti</button>
+    <div class="wrapper">
+      <ul class="notes-container">
+        <li class="start-note">
+          <div class="child">
+            <div class="add-btn">
+              <div class="circle">
+                <i class="bx bx-plus-circle"></i>
+                <button>Add Notes</button>
+              </div>
+            </div>
+          </div>
+        </li>
+
+      </ul>
+    </div>
+
+    <div class="full-width">
+      <section class="container">
+        <header>Register User</header>
+        <i class="box-icon bx bx-x-circle"></i>
+        <form action="#" class="form">
+          <div class="input-box">
+            <label>Title</label>
+            <input
+              id="note-title"
+              type="text"
+              placeholder="Enter Title for Note"
+              required
+            />
+          </div>
+          <div class="input-box">
+            <label>Notes</label>
+            <textarea
+              placeholder="Your Note Here...."
+              name=""
+              id="note-text"
+              rows="7"
+            ></textarea>
+          </div>
+
+          <button id="btn-submit">Submit</button>
+        </form>
+      </section>
+    </div>
+
+    <script src="link.js"></script>
+  </body>
+</html>
